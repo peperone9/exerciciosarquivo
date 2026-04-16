@@ -17,9 +17,8 @@ def fibonaci(num):
             fib = atual + anterior
             anterior = atual
             atual = fib
-        linha += str(fib) + "\n".
+        linha += str(fib) + "\n"
         i += 1
-    print(linha)
     gravar()
         
 def gravar():
